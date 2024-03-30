@@ -3,4 +3,8 @@ numpy
 pandas
 scipy
 seaborn
-pip
+empiricaldist
+statsmodels
+scikit-learn
+pyjanitor
+session-info
