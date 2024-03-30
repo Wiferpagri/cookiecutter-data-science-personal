@@ -21,8 +21,12 @@ subprocess.call([python_venv,'-m', 'pip', 'install', '-r', 'requirements.txt'])
 if'{{ cookiecutter.project_packages }}' == 'Notebook':
   subprocess.call([python_venv,'-m', 'ipykernel', 'install', '--user', '--name', 'venv'])
 
-# Start git
+# Updating requirements
+file = open("D:\cookiecutter_try\{{ cookiecutter.project_slug }}\requirements.txt", "w")
+file.write(subprocess.call(['pip', 'freeze']))
+file.close()
 
+# Start git
 print(f"Initializing a git repository...{RESET_ALL}")
 subprocess.call(['git', 'init'])
 subprocess.call(['git', 'add', '*'])
