@@ -16,7 +16,6 @@ python_venv =   os.getcwd()+"\\venv\\Scripts\\python.exe"
 subprocess.call([python_venv,'-m', 'pip', '--upgrade', 'pip'])
 subprocess.call([python_venv,'-m', 'pip', 'install', '-r', 'requirements.txt'])
 subprocess.call(['pip', 'freeze', '>', 'requeriments.txt'])
-subprocess.call(['Set-ExecutionPolicy', '-ExecutionPolicy', 'RemoteSigned', '-Scope' 'Process'])
 
 
 # Configure the environment to receive Notebooks
@@ -30,7 +29,5 @@ subprocess.call(['git', 'init'])
 subprocess.call(['git', 'branch', '-m', 'master', 'main'])
 subprocess.call(['git', 'add', '*'])
 subprocess.call(['git', 'commit', '-m', 'Initial commit'])
-
-subprocess.call('cd', '.\{{ cookiecutter.project_slug }}\venv\Scripts\activate')
 
 print(f"{MESSAGE_COLOR}The beginning of your destiny is defined now! Create and have fun!{RESET_ALL}")
