@@ -1,9 +1,10 @@
 {
-    "project_title": "Cookiecutter Personal",
-    "project_slug": "{{ cookiecutter.project_title.lower().replace(' ', '_').replace('-', '_') }}",
-    "project_description": "Describe your project",
-    "project_author_name": "Your Name",
-    "project_author_email": "Your email",
-    "project_packages": ["All, Minimal, Notebook"],
-    "python_version": "3.7"
+    "project_name": "Cookiecutter Personal Data Science Template",
+    "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
+    "project_author_name": "GitHub name (or your organization/company/team)",
+    "project_author_email": "Your email (or your organization/company/team)",
+    "project_description": "A short description of the project",
+    "project_packages": ["All", "Minimal", "Notebook"],
+    "python_version": "3.11",
+    "project_version": "0.1.0"
 }
