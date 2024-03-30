@@ -17,13 +17,7 @@ subprocess.call([python_venv,'-m', 'pip', '--upgrade', 'pip'])
 subprocess.call([python_venv,'-m', 'pip', 'install', '-r', 'requirements.txt'])
 subprocess.call(['pip', 'freeze', '>', 'requeriments.txt'])
 
-
-# Configure the environment to receive Notebooks
-
-if '{{ cookiecutter.project_packages }}' == 'Notebook':
-  subprocess.call([python_venv,'-m', 'ipykernel', 'install', '--user', '--name', 'venv'])
-
-
+# Initializing git
 print(f"Initializing a git repository...{RESET_ALL}")
 subprocess.call(['git', 'init'])
 subprocess.call(['git', 'branch', '-m', 'master', 'main'])
