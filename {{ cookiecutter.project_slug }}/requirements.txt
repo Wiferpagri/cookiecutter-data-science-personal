@@ -8,3 +8,9 @@ statsmodels
 scikit-learn
 pyjanitor
 session-info
+fs
+jupyter
+jupyterlab
+pathlib
+pip
+pyprojroot
