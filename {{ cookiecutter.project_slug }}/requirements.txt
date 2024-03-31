@@ -13,7 +13,6 @@ jupyterlab
 pathlib
 pip
 pyprojroot
-python=={{ cookiecutter.python_version }}
 black
 invoke
 matplotlib
