@@ -5,6 +5,7 @@
 ```bash
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
 .\`{{ cookiecutter.project_slug }}`\venv\Scripts\activate
+pip freeze > requirements.txt
 ```
 
 The packages necessary to run the project are now installed inside the virtual environment.
