@@ -1,8 +1,24 @@
-# {{ cookiecutter.project_name }}
+# Cookiecutter Data Science Template
 
-{{ cookiecutter.project_description }}
+_A logical, reasonably standardized, but flexible project structure for doing and sharing data science work._
 
-## Project Organization
+## Requirements
+
+- [Cookiecutter Python package](http://cookiecutter.readthedocs.org/en/latest/installation.html): This can be installed with pip by:
+
+``` bash
+pip install cookiecutter
+```
+
+## Create a new project
+
+In a folder where you want your project generated:
+
+```bash
+cookiecutter https://github.com/Wiferpagri/cookiecutter-data-science
+```
+
+## Resulting directory structure
 
     ├── LICENSE
     ├── tasks.py           <- Invoke with commands like `notebook`.
@@ -25,7 +41,7 @@
     ├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
     │   └── figures         <- Generated graphics and figures to be used in reporting.
     │
-    ├── requirements.txt    <- The requirements file for reproducing the analysis environment.
+    ├── environment.yml    <- The requirements file for reproducing the analysis environment.
     │
     ├── .here              <- File that will stop the search if none of the other criteria
     │                         apply when searching head of project.
@@ -53,4 +69,15 @@
         └── visualization  <- Scripts to create exploratory and results oriented visualizations.
             └── visualize.py
 
----
+## Contributing guide
+
+All contributions, bug reports, bug fixes, documentation improvements, enhancements and ideas are welcome.
+
+## Credits
+
+This project is heavily influenced by [drivendata's Cookiecutter Data Science](https://github.com/drivendata/cookiecutter-data-science), [andfanilo's Cookiecutter for Kaggle Conda projects](https://github.com/andfanilo/cookiecutter-kaggle), and julia's package [DrWatson](https://juliadynamics.github.io/DrWatson.jl/dev/).
+
+Other links that helped shape this cookiecutter :
+
+- [Write less terrible code with Jupyter Notebook](https://blog.godatadriven.com/write-less-terrible-notebook-code)
+- [Cookiecutter DataScience Opinions](http://drivendata.github.io/cookiecutter-data-science/#opinions)

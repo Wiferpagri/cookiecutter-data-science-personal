@@ -7,10 +7,25 @@ empiricaldist
 statsmodels
 scikit-learn
 pyjanitor
-session-info
 fs
 jupyter
 jupyterlab
 pathlib
 pip
 pyprojroot
+python=={{ cookiecutter.python_version }}
+black
+invoke
+matplotlib
+nbdime
+pandas-flavor
+pandas-profiling
+plotly
+pyjanitor
+tensorflow
+keras
+lightgbm
+missingno
+pylint
+pyspark
+python-dotenv
