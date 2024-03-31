@@ -4,7 +4,7 @@
 
 ```bash
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
-.\`{{ cookiecutter.project_project_name }}`\venv\Scripts\activate
+.\`{{ cookiecutter.project_slug }}`\venv\Scripts\activate
 ```
 
 The packages necessary to run the project are now installed inside the virtual environment.
