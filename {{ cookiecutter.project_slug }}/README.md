@@ -110,7 +110,7 @@ Contributions are welcome! Please follow these steps to contribute:
 5. Create a pull request detailing your changes.
 
 ## License
-This project is licensed under the MIT License.
+This project is licensed under the {{ cookiecutter.project_open_source_license }}.
 
 ## Acknowledgements
 I would like to thank [mention any individuals, organizations, or resources you want to acknowledge] for their support and contributions to this project.
