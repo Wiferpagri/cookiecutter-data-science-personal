@@ -28,3 +28,6 @@ missingno
 pylint
 pyspark
 python-dotenv
+upsetplot
+xgboost
+lightgbm
