@@ -31,3 +31,5 @@ python-dotenv
 upsetplot
 xgboost
 lightgbm
+pyreadr
+openpyxl
