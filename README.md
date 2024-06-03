@@ -15,7 +15,7 @@ pip install cookiecutter
 In a folder where you want your project generated:
 
 ```bash
-cookiecutter https://github.com/Wiferpagri/cookiecutter-data-science
+cookiecutter https://github.com/Wiferpagri/cookiecutter-data-science-personal
 ```
 
 ## Resulting directory structure
