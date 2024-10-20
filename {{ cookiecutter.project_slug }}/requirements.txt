@@ -19,10 +19,10 @@ matplotlib
 nbdime
 pandas-flavor
 pandas-profiling
+pingouin
 plotly
 pyjanitor
-tensorflow
-keras
+torch
 lightgbm
 missingno
 pylint
